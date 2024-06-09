@@ -1,0 +1,32 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: '15.1'
+
+      - name: Build app
+        run: xcodebuild -workspace MagicSim.xcworkspace -scheme MagicSim -configuration Release -archivePath ${{ github.workspace }}/build/MagicSim.xcarchive archive
+
+      - name: Create .dmg
+        run: create-dmg ${{ github.workspace }}/build/MagicSim.xcarchive/Products/Applications/MagicSim.app --overwrite
+
+      - name: Upload to GitHub Releases
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ${{ github.workspace }}/build/YourApp.dmg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
