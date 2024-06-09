@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		961BA07F2C14749000AB2CF5 /* LoginDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961BA07E2C14749000AB2CF5 /* LoginDatasource.swift */; };
+		961BA0812C14758C00AB2CF5 /* SimulatorAutomationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961BA0802C14758C00AB2CF5 /* SimulatorAutomationManager.swift */; };
+		964F74B92C120A4C00F64259 /* MagicSimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F74B82C120A4C00F64259 /* MagicSimApp.swift */; };
+		964F74BB2C120A4C00F64259 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F74BA2C120A4C00F64259 /* ContentView.swift */; };
+		964F74BD2C120A4D00F64259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964F74BC2C120A4D00F64259 /* Assets.xcassets */; };
+		964F74C02C120A4D00F64259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964F74BF2C120A4D00F64259 /* Preview Assets.xcassets */; };
+		96E30F7A2C147AA9008DE592 /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E30F792C147AA9008DE592 /* LoginFormView.swift */; };
+		96E30F7C2C147C5A008DE592 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E30F7B2C147C5A008DE592 /* LoginViewModel.swift */; };
+		96EB96A52C12241B00634D9B /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EB96A42C12241B00634D9B /* LoginInfo.swift */; };
+		96EB96A72C12243700634D9B /* SimulatorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EB96A62C12243700634D9B /* SimulatorTracker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		961BA07E2C14749000AB2CF5 /* LoginDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDatasource.swift; sourceTree = "<group>"; };
+		961BA0802C14758C00AB2CF5 /* SimulatorAutomationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorAutomationManager.swift; sourceTree = "<group>"; };
+		964F74B52C120A4C00F64259 /* MagicSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		964F74B82C120A4C00F64259 /* MagicSimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSimApp.swift; sourceTree = "<group>"; };
+		964F74BA2C120A4C00F64259 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		964F74BC2C120A4D00F64259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		964F74BF2C120A4D00F64259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		964F74C12C120A4D00F64259 /* MagicSim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicSim.entitlements; sourceTree = "<group>"; };
+		96E30F792C147AA9008DE592 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
+		96E30F7B2C147C5A008DE592 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		96EB96A42C12241B00634D9B /* LoginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
+		96EB96A62C12243700634D9B /* SimulatorTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorTracker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		964F74B22C120A4C00F64259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		964F74AC2C120A4C00F64259 = {
+			isa = PBXGroup;
+			children = (
+				964F74B72C120A4C00F64259 /* MagicSim */,
+				964F74B62C120A4C00F64259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		964F74B62C120A4C00F64259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				964F74B52C120A4C00F64259 /* MagicSim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		964F74B72C120A4C00F64259 /* MagicSim */ = {
+			isa = PBXGroup;
+			children = (
+				964F74B82C120A4C00F64259 /* MagicSimApp.swift */,
+				964F74BA2C120A4C00F64259 /* ContentView.swift */,
+				96E30F792C147AA9008DE592 /* LoginFormView.swift */,
+				96EB96A42C12241B00634D9B /* LoginInfo.swift */,
+				961BA07E2C14749000AB2CF5 /* LoginDatasource.swift */,
+				96EB96A62C12243700634D9B /* SimulatorTracker.swift */,
+				961BA0802C14758C00AB2CF5 /* SimulatorAutomationManager.swift */,
+				964F74BC2C120A4D00F64259 /* Assets.xcassets */,
+				964F74C12C120A4D00F64259 /* MagicSim.entitlements */,
+				964F74BE2C120A4D00F64259 /* Preview Content */,
+				96E30F7B2C147C5A008DE592 /* LoginViewModel.swift */,
+			);
+			path = MagicSim;
+			sourceTree = "<group>";
+		};
+		964F74BE2C120A4D00F64259 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				964F74BF2C120A4D00F64259 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		964F74B42C120A4C00F64259 /* MagicSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964F74C42C120A4D00F64259 /* Build configuration list for PBXNativeTarget "MagicSim" */;
+			buildPhases = (
+				964F74B12C120A4C00F64259 /* Sources */,
+				964F74B22C120A4C00F64259 /* Frameworks */,
+				964F74B32C120A4C00F64259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicSim;
+			productName = MagicSim;
+			productReference = 964F74B52C120A4C00F64259 /* MagicSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		964F74AD2C120A4C00F64259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					964F74B42C120A4C00F64259 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 964F74B02C120A4C00F64259 /* Build configuration list for PBXProject "MagicSim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 964F74AC2C120A4C00F64259;
+			productRefGroup = 964F74B62C120A4C00F64259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964F74B42C120A4C00F64259 /* MagicSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		964F74B32C120A4C00F64259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964F74C02C120A4D00F64259 /* Preview Assets.xcassets in Resources */,
+				964F74BD2C120A4D00F64259 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		964F74B12C120A4C00F64259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EB96A52C12241B00634D9B /* LoginInfo.swift in Sources */,
+				961BA07F2C14749000AB2CF5 /* LoginDatasource.swift in Sources */,
+				961BA0812C14758C00AB2CF5 /* SimulatorAutomationManager.swift in Sources */,
+				96E30F7A2C147AA9008DE592 /* LoginFormView.swift in Sources */,
+				96E30F7C2C147C5A008DE592 /* LoginViewModel.swift in Sources */,
+				96EB96A72C12243700634D9B /* SimulatorTracker.swift in Sources */,
+				964F74BB2C120A4C00F64259 /* ContentView.swift in Sources */,
+				964F74B92C120A4C00F64259 /* MagicSimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		964F74C22C120A4D00F64259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		964F74C32C120A4D00F64259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		964F74C52C120A4D00F64259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MagicSim/MagicSim.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicSim/Preview Content\"";
+				DEVELOPMENT_TEAM = SHWJ5DKMT8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "$(PRODUCT_NAME) needs to control System Events";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.components.MagicSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		964F74C62C120A4D00F64259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MagicSim/MagicSim.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicSim/Preview Content\"";
+				DEVELOPMENT_TEAM = SHWJ5DKMT8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "$(PRODUCT_NAME) needs to control System Events";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.components.MagicSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		964F74B02C120A4C00F64259 /* Build configuration list for PBXProject "MagicSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964F74C22C120A4D00F64259 /* Debug */,
+				964F74C32C120A4D00F64259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964F74C42C120A4D00F64259 /* Build configuration list for PBXNativeTarget "MagicSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964F74C52C120A4D00F64259 /* Debug */,
+				964F74C62C120A4D00F64259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 964F74AD2C120A4C00F64259 /* Project object */;
+}
