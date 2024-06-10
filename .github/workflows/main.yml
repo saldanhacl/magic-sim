@@ -18,7 +18,7 @@ jobs:
           xcode-version: '15.1'
 
       - name: Build app
-        run: xcodebuild -workspace MagicSim.xcworkspace -scheme MagicSim -configuration Release -archivePath ${{ github.workspace }}/build/MagicSim.xcarchive archive
+        run: xcodebuild -workspace MagicSim.xcodeproj -scheme MagicSim -configuration Release -archivePath ${{ github.workspace }}/build/MagicSim.xcarchive archive
 
       - name: Create .dmg
         run: create-dmg ${{ github.workspace }}/build/MagicSim.xcarchive/Products/Applications/MagicSim.app --overwrite
